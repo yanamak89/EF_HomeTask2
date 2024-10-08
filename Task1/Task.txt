@@ -1,0 +1,28 @@
+Завдання 1
+Розробіть консольну програму з використанням одного списку з типом (List< ваш вибір >) одного з варіантів.
+
+1. Магазин – Product
+1) + Id: Guid
+2) + Name: string
+3) + Cost: double
+4) + Description: string
+5) + Quantity: int
+
+2. Користувач – User
+1) + Id: Guid
+2) + Name: string
+3) + LastName: string
+4) + Login: string
+5) + Password: string
+6) + Email: string
+
+3. Замовлення – Order
+1) + Id: Guid
+2) + Name: string
+3) + Create: datetime
+4) + Update: datetime
+5) + Description: string
+Заповніть ваш список значеннями (10 значень).
+Виведіть на екран значення за індексом > 1, 5, 0, 7
+Знайдіть та виведіть індекси > 1, 5 за властивістю Id
+Знайдіть та виведіть індекси > 0, 7 за властивістю Name
